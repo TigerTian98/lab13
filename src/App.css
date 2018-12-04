@@ -1,0 +1,81 @@
+body, html {
+  overflow: hidden;
+}
+
+button, input {
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.cities {
+  background-color: black;
+  border-radius: 2px;
+  color: white;
+  opacity: 0.8;
+  position: absolute;
+}
+
+#beijing {
+  left: 60%;
+  top: 39%;
+}
+
+#changchun {
+  left: 66%;
+  top: 27%;
+}
+
+#chengdu {
+  left: 50%;
+  top: 63%;
+}
+
+#guangzhou {
+  left: 58%;
+  top: 79%;
+}
+
+#jinan {
+  left: 60.5%;
+  top: 47%;
+}
+
+#shanghai {
+  left: 65%;
+  top: 60%;
+}
+
+#shenzhen {
+  left: 59%;
+  top: 83%;
+}
+
+#wuhan {
+  left: 57%;
+  top: 64%;
+}
+
+#background {
+  height: 95vh;
+  left: calc(50vw - 56vh);
+  position: absolute;
+  width: 106vh;
+  z-index: -1;
+}
+
+#header {
+  left: 10vw;
+  position: absolute;
+}
+
+#weather_card {
+  background-color: rgb(14, 60, 165);
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 200px;
+}
